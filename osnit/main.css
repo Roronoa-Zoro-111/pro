@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Linux Libertine';
+  src: url('fonts/LinuxLibertine.woff2') format('woff2'),
+       url('fonts/LinuxLibertine.ttf') format('truetype');
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Linux Libertine', 'Hoefler Text', Georgia, 'Times New Roman', Times, serif;
+  font-size: 36px;
+}
